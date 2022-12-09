@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5172e7;
+}
+.quote-card{
+    height: 45vh;
+    background-color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.quote{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 1.8rem;
+}
+#new-quote{
+    padding: 10px 27px;
+    border: none;
+    background-color: #5172e7;
+    color: white;
+    border-radius: 20px;
+}
+#new-quote:active{
+    transform: scale(1.2);
+}
